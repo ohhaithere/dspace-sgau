@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace-jspui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace-oai" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace-rdf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace-rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace-services" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace-solr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace-sword" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace-swordv2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace-xmlui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace-xmlui-mirage2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace/modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/additions" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/jspui" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/oai" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/rdf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/solr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/sword" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/swordv2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/xmlui" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

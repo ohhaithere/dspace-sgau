@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file url="file://$PROJECT_DIR$/dspace-solr/overlays" />
+    <file url="file://$PROJECT_DIR$/dspace-swordv2/overlays" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/solr/overlays" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/swordv2/overlays" />
+    <file url="file://$PROJECT_DIR$/dspace/modules/xmlui/overlays" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace-jspui" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace-oai" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace-rdf" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace-rest" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace-solr" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace-sword" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace-swordv2" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace-xmlui" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace-xmlui-mirage2" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace/modules/jspui" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace/modules/oai" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace/modules/rdf" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace/modules/rest" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace/modules/solr" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace/modules/sword" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace/modules/swordv2" />
+    <file type="web" url="file://$PROJECT_DIR$/dspace/modules/xmlui" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xmlui:war">
+    <output-path>$PROJECT_DIR$/dspace/modules/xmlui/target</output-path>
+    <root id="archive" name="xmlui-5.2.war">
+      <element id="artifact" artifact-name="xmlui:war exploded" />
+    </root>
+  </artifact>
+</component>

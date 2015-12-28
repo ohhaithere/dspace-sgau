@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rdf:war">
+    <output-path>$PROJECT_DIR$/dspace/modules/rdf/target</output-path>
+    <root id="archive" name="rdf-5.2.war">
+      <element id="artifact" artifact-name="rdf:war exploded" />
+    </root>
+  </artifact>
+</component>

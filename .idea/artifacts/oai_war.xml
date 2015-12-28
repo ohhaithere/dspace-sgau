@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="oai:war">
+    <output-path>$PROJECT_DIR$/dspace/modules/oai/target</output-path>
+    <root id="archive" name="oai-5.2.war">
+      <element id="artifact" artifact-name="oai:war exploded" />
+    </root>
+  </artifact>
+</component>
