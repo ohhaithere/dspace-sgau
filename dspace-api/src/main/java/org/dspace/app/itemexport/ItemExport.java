@@ -352,42 +352,47 @@ public class ItemExport
     public static void exportItemToFolder(Context c, Item myItem, String destDirName,
                                    int seqStart, boolean migrate) throws Exception
     {
-        File destDir = new File(destDirName);
+        try {
+            File destDir = new File(destDirName);
 
-        if (destDir.exists())
-        {
-            // now create a subdirectory
-            File itemDir = new File(destDir + "/" + myItem.getID());
+            destDir.setExecutable(true, false);
+            destDir.setWritable(true, false);
+            destDir.setReadable(true, false);
 
-            System.out.println("Exporting Item " + myItem.getID() + " to "
-                    + itemDir);
+            if (destDir.exists()) {
+                // now create a subdirectory
+                File itemDir = new File(destDir + "/" + myItem.getID());
 
-            if (itemDir.exists())
-            {
-                throw new Exception("Directory " + destDir + "/" + seqStart
-                        + " already exists!");
-            }
+                itemDir.setExecutable(true, false);
+                itemDir.setWritable(true, false);
+                itemDir.setReadable(true, false);
 
-            if (itemDir.mkdir())
-            {
-                // make it this far, now start exporting
-                writeMetadata(c, myItem, itemDir, migrate);
-                //writeBitstreams(c, myItem, itemDir);
-                if (!migrate)
-                {
-                    writeHandle(c, myItem, itemDir);
+                System.out.println("Exporting Item " + myItem.getID() + " to "
+                        + itemDir);
+
+                if (itemDir.exists()) {
+                    //       throw new Exception("Directory " + destDir + "/" + seqStart
+                    //             + " already exists!");
                 }
+
+                if (itemDir.mkdir()) {
+                    // make it this far, now start exporting
+                    writeMetadata(c, myItem, itemDir, migrate);
+                    //writeBitstreams(c, myItem, itemDir);
+                    if (!migrate) {
+                        writeHandle(c, myItem, itemDir);
+                    }
+                } else {
+                    // throw new Exception("Error, can't make dir " + itemDir);
+                }
+            } else {
+                //   throw new Exception("Error, directory " + destDirName
+                //           + " doesn't exist!");
             }
-            else
-            {
-                throw new Exception("Error, can't make dir " + itemDir);
-            }
+        } catch(Exception e){
+
         }
-        else
-        {
-            throw new Exception("Error, directory " + destDirName
-                    + " doesn't exist!");
-        }
+
     }
 
     private static void exportItem(Context c, Item myItem, String destDirName,
@@ -475,6 +480,14 @@ public class ItemExport
 
         File outFile = new File(destDir, filename);
         File outFile2 = new File(destDir, filename2);
+
+        outFile.setReadable(true, false);
+        outFile.setWritable(true, false);
+        outFile.setExecutable(true, false);
+
+        outFile2.setReadable(true, false);
+        outFile2.setWritable(true, false);
+        outFile2.setExecutable(true, false);
 
         System.out.println("Attempting to create file " + outFile);
 

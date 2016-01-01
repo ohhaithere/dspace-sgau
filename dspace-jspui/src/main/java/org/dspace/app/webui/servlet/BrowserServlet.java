@@ -111,7 +111,7 @@ public class BrowserServlet extends AbstractBrowserServlet {
             Item item = null;
             item = Item.find(context, Integer.parseInt(s));
             try {
-                ItemExport.exportItemToFolder(context, item, "C:/ds", 0, false);
+                ItemExport.exportItemToFolder(context, item, "/home/dspace", 0, false);
             } catch (Exception e) {
                 e.printStackTrace();
             }

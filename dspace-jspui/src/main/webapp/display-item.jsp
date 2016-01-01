@@ -159,7 +159,7 @@
                         TableRowIterator name = (TableRowIterator) request.getAttribute("systems"); %>
 
                     <input class="btn btn-default col-md-12" type="submit" name="submit" value="<fmt:message key="jsp.mydspace.request.export.item"/>" />
-                    <select name="path">
+                    <select style="width:100%" name="path">
                         <% while(name.hasNext()) {
                             TableRow row = name.next();%>
                         <option value="<%=row.getStringColumn("folder_path")%>"><%=row.getStringColumn("system_name")%></option>

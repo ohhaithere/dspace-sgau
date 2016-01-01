@@ -134,6 +134,7 @@ public class SystemsServlet extends DSpaceServlet{
        // response.getWriter().write(ee);
         TableRowIterator tri = DatabaseManager.queryTable(context, "systems", "SELECT * FROM systems");
         request.setAttribute("systems", tri);
+
         request.getRequestDispatcher("/system/system-home.jsp").forward(request, response);
     }
 }
