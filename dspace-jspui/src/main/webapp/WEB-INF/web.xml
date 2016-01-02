@@ -198,6 +198,11 @@
         <servlet-class>org.dspace.app.webui.servlet.SystemsServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>import</servlet-name>
+        <servlet-class>org.dspace.app.webui.servlet.ImportServletServlet</servlet-class>
+    </servlet>
+
   <servlet>
     <servlet-name>community-list</servlet-name>
     <servlet-class>org.dspace.app.webui.servlet.CommunityListServlet</servlet-class>
@@ -515,6 +520,11 @@
     <servlet-mapping>
         <servlet-name>systems</servlet-name>
         <url-pattern>/systems/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>import</servlet-name>
+        <url-pattern>/import/*</url-pattern>
     </servlet-mapping>
 
   <servlet-mapping>
