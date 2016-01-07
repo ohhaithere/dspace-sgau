@@ -199,8 +199,8 @@
     </servlet>
 
     <servlet>
-        <servlet-name>import</servlet-name>
-        <servlet-class>org.dspace.app.webui.servlet.ImportServletServlet</servlet-class>
+        <servlet-name>import-item</servlet-name>
+        <servlet-class>org.dspace.app.webui.servlet.ImportServlet</servlet-class>
     </servlet>
 
   <servlet>
@@ -523,8 +523,8 @@
     </servlet-mapping>
 
     <servlet-mapping>
-        <servlet-name>import</servlet-name>
-        <url-pattern>/import/*</url-pattern>
+        <servlet-name>import-item</servlet-name>
+        <url-pattern>/import-item/*</url-pattern>
     </servlet-mapping>
 
   <servlet-mapping>

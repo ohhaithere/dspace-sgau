@@ -29,10 +29,7 @@ import org.apache.log4j.Logger;
 import org.dspace.app.util.SubmissionInfo;
 import org.dspace.app.util.SubmissionStepConfig;
 import org.dspace.app.webui.submit.JSPStepManager;
-import org.dspace.app.webui.util.FileUploadRequest;
-import org.dspace.app.webui.util.JSONUploadResponse;
-import org.dspace.app.webui.util.JSPManager;
-import org.dspace.app.webui.util.UIUtil;
+import org.dspace.app.webui.util.*;
 import org.dspace.authorize.AuthorizeException;
 import org.dspace.content.Bitstream;
 import org.dspace.content.Bundle;
@@ -46,7 +43,11 @@ import org.dspace.submit.AbstractProcessingStep;
 import com.google.gson.Gson;
 import java.util.Collections;
 import javax.servlet.http.HttpSession;
+import javax.xml.xpath.*;
+
 import org.dspace.submit.step.UploadStep;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
 
 /**
  * Submission Manager servlet for DSpace. Handles the initial submission of
@@ -234,9 +235,171 @@ public class SubmissionController extends DSpaceServlet
     {
     	// Configuration of current step in Item Submission Process
         SubmissionStepConfig currentStepConfig;
+
         
         //need to find out what type of form we are dealing with
         String contentType = request.getContentType();
+
+        String item_id = request.getParameter("import_item");
+
+        Document doc = null;
+        Document docId = null;
+
+        SoapHelper sh = new SoapHelper();
+        if(item_id != null) {
+            if (!item_id.equals("")) {
+                doc = sh.getRecordByCode(item_id);
+                NodeList idNode = doc.getElementsByTagName("m:BiblId");
+                String idItem = idNode.item(0).getTextContent();
+                docId = sh.getRecordById(idItem);
+                XPathFactory xpathFactory = XPathFactory.newInstance();
+
+                // Create XPath object
+                XPath xpath = xpathFactory.newXPath();
+
+
+                //Node nodeValue = nodeTitle.getChildNodes().item(3);
+
+                XPathExpression expr =
+                        null;
+
+
+                try {
+                    expr = xpath.compile("/*/*/*/*/*[local-name()='Records']/*[local-name()='Title']/*[local-name()='Value']");
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                String titles = "";
+
+                NodeList nodes = null;
+                try {
+                    nodes = (NodeList) expr.evaluate(docId, XPathConstants.NODESET);
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                for (int i = 0; i < nodes.getLength(); i++) {
+                    titles += nodes.item(i).getTextContent();
+                    if (i == nodes.getLength() - 1) {
+
+                    } else
+                        titles += ",";
+                }
+
+                try {
+                    expr = xpath.compile("/*/*/*/*/*[local-name()='Records']/*[local-name()='Subject']");
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                String tagsString = "";
+
+                NodeList tags = null;
+                try {
+                    tags = (NodeList) expr.evaluate(docId, XPathConstants.NODESET);
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                for (int i = 0; i < tags.getLength(); i++) {
+                    tagsString += tags.item(i).getTextContent();
+                    if (i == tags.getLength() - 1) {
+
+                    } else
+                        tagsString += ",";
+                }
+
+                try {
+                    expr = xpath.compile("/*/*/*/*/*[local-name()='Records']/*[local-name()='Date']");
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                String dateString = "";
+
+                NodeList dates = null;
+                try {
+                    dates = (NodeList) expr.evaluate(docId, XPathConstants.NODESET);
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                String date = dates.item(0).getTextContent();
+
+                try {
+                    expr = xpath.compile("/*/*/*/*/*[local-name()='Records']/*[local-name()='Language']");
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                String languages = "";
+
+                NodeList language = null;
+                try {
+                    language = (NodeList) expr.evaluate(docId, XPathConstants.NODESET);
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                for (int i = 0; i < language.getLength(); i++) {
+                    languages += language.item(i).getTextContent();
+                    if (i == language.getLength() - 1) {
+
+                    } else
+                        languages += ",";
+                }
+
+                try {
+                    expr = xpath.compile("/*/*/*/*/*[local-name()='Records']/*[local-name()='Coverage']/*[local-name()='Value']");
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                String coverages = "";
+
+                NodeList coverage = null;
+                try {
+                    coverage = (NodeList) expr.evaluate(docId, XPathConstants.NODESET);
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                for (int i = 0; i < coverage.getLength(); i++) {
+                    coverages += coverage.item(i).getTextContent();
+                    if (i == coverage.getLength() - 1) {
+
+                    } else
+                        coverages += ",";
+                }
+
+                try {
+                    expr = xpath.compile("/*/*/*/*/*[local-name()='Records']/*[local-name()='Creator']");
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                String author = "";
+
+                NodeList authors = null;
+                try {
+                    authors = (NodeList) expr.evaluate(docId, XPathConstants.NODESET);
+                } catch (XPathExpressionException e) {
+                    e.printStackTrace();
+                }
+
+                if (authors.getLength() > 0) {
+                    author = authors.item(0).getTextContent();
+                }
+
+                request.setAttribute("titles", titles);
+                request.setAttribute("author", author);
+                request.setAttribute("tags", tagsString);
+                request.setAttribute("date", date);
+                request.setAttribute("languages", languages);
+                request.setAttribute("coverages", coverages);
+            }
+        }
 
         // if multipart form, we have to wrap the multipart request
         // in order to be able to retrieve request parameters, etc.

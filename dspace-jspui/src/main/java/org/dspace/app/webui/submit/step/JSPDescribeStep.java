@@ -218,6 +218,7 @@ public class JSPDescribeStep extends JSPStep
         }
 
 
+
         // forward to edit-metadata JSP
         JSPStepManager.showJSP(request, response, subInfo, DISPLAY_JSP);
     }
