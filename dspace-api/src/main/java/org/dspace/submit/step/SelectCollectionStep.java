@@ -8,6 +8,7 @@
 package org.dspace.submit.step;
 
 import java.io.IOException;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import javax.servlet.ServletException;
@@ -90,6 +91,10 @@ public class SelectCollectionStep extends AbstractProcessingStep
             return STATUS_NO_COLLECTION;
         }
 
+        String identifier = request.getParameter("identifier");
+
+
+
         // try to load the collection
         Collection col = Collection.find(context, id);
 
@@ -106,12 +111,54 @@ public class SelectCollectionStep extends AbstractProcessingStep
             // update Submission Information with this Workspace Item
             subInfo.setSubmissionItem(wi);
 
+            String coverages = request.getParameter("tags");
+
+        /*     */
             // commit changes to database
             context.commit();
 
             // need to reload current submission process config,
             // since it is based on the Collection selected
             subInfo.reloadSubmissionConfig(request);
+
+            if(identifier!= null) {
+                PreparedStatement statement = null;
+                statement = context.getDBConnection().prepareStatement("INSERT INTO metadatavalue (metadata_field_id, resource_id, text_value, place, confidence, resource_type_id) VALUES (?,?,?,?,?,?)");
+
+                statement.setInt(1, 17);
+                statement.setInt(2, wi.getID());
+                statement.setString(3, identifier);
+                statement.setInt(4, 1);
+                statement.setInt(5, -1);
+                statement.setInt(6, 2);
+                int i = statement.executeUpdate();
+               // context.getDBConnection().commit();
+                statement.close();
+            }
+
+         /*   if(coverages != null){
+                String cov[] = coverages.split(",");
+
+                for(int i = 0; i < coverages.length(); i++){
+                    PreparedStatement statement2 = null;
+                    statement2 = context.getDBConnection().prepareStatement("INSERT INTO metadatavalue (metadata_field_id, resource_id, text_value, place, confidence, resource_type_id) VALUES (?,?,?,?,?,?)");
+
+                    statement2.setInt(1, 80);
+                    statement2.setInt(2, wi.getID());
+                    statement2.setString(3, cov[i]);
+                    statement2.setInt(4, i);
+                    statement2.setInt(5, -1);
+                    statement2.setInt(6, 2);
+                    int in = statement2.executeUpdate();
+                    //
+
+                }
+            } */
+
+
+            context.getDBConnection().commit();
+
+
         }
 
         // no errors occurred

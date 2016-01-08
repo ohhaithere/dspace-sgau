@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Enumeration;
 import java.util.ArrayList;
@@ -239,6 +240,33 @@ public class SubmissionController extends DSpaceServlet
         
         //need to find out what type of form we are dealing with
         String contentType = request.getContentType();
+
+        String itemId = request.getParameter("workspace_item_id");
+        String step = request.getParameter("step");
+        if(step == null){
+            step = "";
+        }
+        if(step.equals("2")){
+      /*      String coverages = request.getParameter("coverages");
+            if(coverages != null) {
+                String cov[] = coverages.split(",");
+
+                for (int i = 0; i < coverages.length(); i++) {
+                    PreparedStatement statement2 = null;
+                    statement2 = context.getDBConnection().prepareStatement("INSERT INTO metadatavalue (metadata_field_id, resource_id, text_value, place, confidence, resource_type_id) VALUES (?,?,?,?,?,?)");
+
+                    statement2.setInt(1, 80);
+                    statement2.setInt(2, Integer.parseInt(itemId));
+                    statement2.setString(3, cov[i]);
+                    statement2.setInt(4, i);
+                    statement2.setInt(5, -1);
+                    statement2.setInt(6, 2);
+                    int in = statement2.executeUpdate();
+                    //
+
+                }
+            }*/
+        }
 
         String item_id = request.getParameter("import_item");
 

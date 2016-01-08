@@ -859,6 +859,8 @@
         }
 
 
+
+
         String[] parts = tags.split(",");
 
       String fieldParam = "";
@@ -973,6 +975,7 @@
          sb.append("</div></div><br/>");
          out.write(sb.toString());
      } else{
+         //readonly = true;
          sb.append("<div class=\"row\"><label class=\"col-md-2" + (required ? " label-required" : "") + "\">")
                  .append(label)
                  .append("</label>");
@@ -988,11 +991,11 @@
                 // fieldParam = fieldName;
 
 
-             if (i < defaults.length) {
+             if (i < parts.length) {
                  sb.append("<span class=\"col-md-4\"><input class=\"form-control\" type=\"text\" name=\"")
                          .append(fieldParam)
                          .append("\" size=\"15\" value=\"")
-                         .append(fieldName)
+                         .append(parts[i])
                          .append("\"")
                          .append((hasVocabulary(vocabulary) && closedVocabulary) || readonly ? " disabled=\"disabled\" " : "")
                          .append("\" />");
@@ -1038,12 +1041,10 @@
                  val2 = parts[i];
              }
 
-             if (i < defaults.length) {
+             if (i < parts.length) {
                  sb.append("<span class=\"col-md-4\"><input class=\"form-control\" type=\"text\" name=\"")
                          .append(fieldParam)
-                         .append("\" size=\"15\" value=\"")
-                         .append(defaults[i].value.replaceAll("\"", "&quot;"))
-                         .append("\"")
+                         .append("\" size=\"15\" ")
                          .append((hasVocabulary(vocabulary) && closedVocabulary) || readonly ? " disabled=\"disabled\" " : "")
                          .append(" value=\""+val2+"\" ")
                          .append("/>");
@@ -1631,6 +1632,7 @@
 		{ %>
         <input type="hidden" name="tags" value="<%=tags %>" />
         <input type="hidden" name="coverages" value="<%=coverage %>" />
+        <input type="hidden" name="identifier" value="<%=request.getParameter("identifier")%>"
         TEST
 			<div class="col-md-6 pull-right btn-group">
 				<input class="btn btn-default col-md-4" type="submit" name="<%=AbstractProcessingStep.PREVIOUS_BUTTON%>" value="<fmt:message key="jsp.submit.edit-metadata.previous"/>" />

@@ -70,6 +70,7 @@ public class ImportServlet extends DSpaceServlet {
 
             request.setAttribute("community_id", request.getParameter("community_id"));
             request.setAttribute("collection_id", request.getParameter("collection_id"));
+            request.setAttribute("uuid_search", uuid);
             request.setAttribute("document", doc);
 
             request.getRequestDispatcher("/import/import-item.jsp").forward(request, response);

@@ -30,6 +30,8 @@ public class SystemsServlet extends DSpaceServlet{
                            HttpServletResponse response) throws ServletException, IOException,
             SQLException, AuthorizeException{
 
+        response.setCharacterEncoding("UTF-8");
+        request.setCharacterEncoding("UTF-8");
 
 
         PrintWriter out = response.getWriter();
@@ -66,6 +68,9 @@ public class SystemsServlet extends DSpaceServlet{
     protected void doDSPost(Context context, HttpServletRequest request,
                            HttpServletResponse response) throws ServletException, IOException,
             SQLException, AuthorizeException{
+
+        response.setCharacterEncoding("UTF-8");
+        request.setCharacterEncoding("UTF-8");
 
         String ee = "";
  /*     try {

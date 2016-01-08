@@ -2,197 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1638e220-6922-4a9a-b996-0f1e174f8b50" name="Default" comment="Lalek">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-item.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-items.jsp" />
-      <change type="MOVED" beforePath="C:\dspace-sgau\dspace-jspui\src\main\webapp\import\system-home.jsp" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-home.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ImportServlet.java" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ImportServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/submit/step/JSPDescribeStep.java" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/submit/step/JSPDescribeStep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/META-INF/LICENSE.txt" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/META-INF/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/META-INF/LICENSE.txt" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/META-INF/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/META-INF/NOTICE.txt" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/META-INF/NOTICE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/META-INF/NOTICE.txt" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/META-INF/NOTICE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/img/filetypes/README" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/img/filetypes/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/img/filetypes/README" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/img/filetypes/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/util/SoapHelper.java" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/util/SoapHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/submit/step/SelectCollectionStep.java" afterPath="$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/submit/step/SelectCollectionStep.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/ZeroClipboard.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/ZeroClipboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/ZeroClipboard.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/ZeroClipboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/admin.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/admin.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/analysis.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/analysis.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/analysis.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/analysis.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/analysis.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/analysis.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/analysis.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/analysis.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/analysis.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/analysis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/analysis.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/analysis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/app.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/app.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/chosen.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/chosen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/chosen.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/chosen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/chosen.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/chosen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/chosen.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/chosen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/cloud.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/cloud.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/cloud.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/cloud.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/cloud.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/cloud.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/cloud.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/cloud.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/cloud.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/cloud.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/cloud.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/cloud.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/collection-home.jsp" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/collection-home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/common.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/common.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/console.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/console.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/console.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/console.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/cores.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/cores.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/cores.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/cores.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/cores.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/cores.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/cores.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/cores.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/cores.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/cores.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/cores.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/cores.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/d3.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/d3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/d3.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/d3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/dashboard.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/dashboard.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/dashboard.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/dashboard.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/dashboard.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/dashboard.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/dataimport.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/dataimport.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/dataimport.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/dataimport.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/dataimport.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/dataimport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/dataimport.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/dataimport.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/dataimport.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/dataimport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/dataimport.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/dataimport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/display-item.jsp" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/display-item.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/documents.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/documents.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/documents.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/documents.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/documents.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/documents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/documents.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/documents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/documents.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/documents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/documents.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/documents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/config/dspace.cfg" afterPath="$PROJECT_DIR$/dspace/config/dspace.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/dspace_jspui_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/dspace_jspui_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/dspace_oai_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/dspace_oai_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/dspace_sword_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/dspace_sword_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/dspace_swordv2_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/dspace_swordv2_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/dspace_xmlui_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/dspace_xmlui_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SystemsServlet.java" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SystemsServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/submit/edit-metadata.jsp" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/submit/edit-metadata.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/files.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/files.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/files.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/files.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/files.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/files.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/files.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/files.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/files.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/files.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/files.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/files.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/highlight.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/highlight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/highlight.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/highlight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/index.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/index.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/index.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/index.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/index.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/index.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/java-properties.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/java-properties.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/java-properties.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/java-properties.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/java-properties.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/java-properties.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/java-properties.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/java-properties.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery-1.7.2.min.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery-1.7.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery-1.7.2.min.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery-1.7.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.ajaxfileupload.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.ajaxfileupload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.ajaxfileupload.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.ajaxfileupload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.blockUI.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.blockUI.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.blockUI.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.blockUI.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.cookie.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.cookie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.cookie.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.cookie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.form.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.form.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.jstree.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.jstree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.jstree.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.jstree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.sammy.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.sammy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.sammy.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.sammy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.timeago.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.timeago.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.timeago.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/jquery.timeago.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/linker.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/linker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/linker.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/linker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/logging.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/logging.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/logging.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/logging.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/logging.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/logging.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/logging.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/logging.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/logging.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/logging.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/logging.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/logging.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/main.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/main.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/menu.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/menu.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_ar.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_ar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_bg.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_ca.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_ca.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_ca_ES.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_ca_ES.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_cs.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_cs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_de.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_de.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_el.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_el.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_es.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_es.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_et.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_et.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_eu.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_eu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_fr.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_fr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_gl.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_gl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_id.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_id.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_it.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_it.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_ja.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_ja.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_pl.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_pl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_pt_BR.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_pt_BR.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_ru.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_ru.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_tr.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_tr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_uk.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/i18n/messages_uk.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/order.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/lib/order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/order.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/lib/order.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2.info" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2.info" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6.info" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-swordv2/overlays/org.swordapp.sword2-server-1.0.info" afterPath="$PROJECT_DIR$/dspace-swordv2/overlays/org.swordapp.sword2-server-1.0.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/swordv2/overlays/org.swordapp.sword2-server-1.0.info" afterPath="$PROJECT_DIR$/dspace/modules/swordv2/overlays/org.swordapp.sword2-server-1.0.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/ping.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/ping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/ping.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/ping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/plugins.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/plugins.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/plugins.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/plugins.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/plugins.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/plugins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/plugins.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/plugins.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/plugins.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/plugins.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/META-INF/maven/org.dspace/dspace-xmlui-lang/pom.properties" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/META-INF/maven/org.dspace/dspace-xmlui-lang/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/META-INF/maven/org.dspace/dspace-xmlui-lang/pom.xml" afterPath="$PROJECT_DIR$/dspace/modules/xmlui/overlays/org.dspace.dspace-xmlui-lang-5.0.6/META-INF/maven/org.dspace/dspace-xmlui-lang/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/query.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/query.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/query.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/query.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/query.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/query.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/query.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/query.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/query.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/query.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/query.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/query.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/replication.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/replication.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/replication.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/replication.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/replication.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/replication.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/replication.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/replication.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/replication.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/replication.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/replication.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/replication.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/require.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/require.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/require.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/require.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/schema-browser.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/schema-browser.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/schema-browser.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/schema-browser.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/schema-browser.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/schema-browser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/schema-browser.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/schema-browser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/schema-browser.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/schema-browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/schema-browser.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/schema-browser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/solr.iml" afterPath="$PROJECT_DIR$/dspace/modules/solr/solr.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/threads.css" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/css/styles/threads.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/threads.css" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/css/styles/threads.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/threads.html" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/tpl/threads.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/threads.html" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/tpl/threads.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/threads.js" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/threads.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/threads.js" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/js/scripts/threads.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-swordv2/overlays/org.swordapp.sword2-server-1.0/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/dspace-swordv2/overlays/org.swordapp.sword2-server-1.0/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/swordv2/overlays/org.swordapp.sword2-server-1.0/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/dspace/modules/swordv2/overlays/org.swordapp.sword2-server-1.0/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/WEB-INF/weblogic.xml" afterPath="$PROJECT_DIR$/dspace-solr/overlays/org.apache.solr.solr-4.10.2/WEB-INF/weblogic.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/WEB-INF/weblogic.xml" afterPath="$PROJECT_DIR$/dspace/modules/solr/overlays/org.apache.solr.solr-4.10.2/WEB-INF/weblogic.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-home.jsp" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-item.jsp" afterPath="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-item.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dspace-parent.iws" />
@@ -238,26 +54,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SubmissionController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SubmissionController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="385" column="43" selection-start-line="385" selection-start-column="43" selection-end-line="385" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.14705883">
+              <caret line="248" column="29" selection-start-line="248" selection-start-column="29" selection-end-line="248" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemExportArchiveServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ItemExportArchiveServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.62069">
-              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
+                <marker date="1452248905433" expanded="true" signature="10525:10653" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -266,30 +70,8 @@
       <file leaf-file-name="ItemExport.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/app/itemexport/ItemExport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.310345">
-              <caret line="682" column="54" selection-start-line="682" selection-start-column="54" selection-end-line="682" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit-metadata.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/submit/edit-metadata.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3065513">
-              <caret line="1025" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="1650" selection-end-column="0" />
-              <folding>
-                <element signature="e#53272#53283#0#JAVA" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="import-items.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-items.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.115385">
-              <caret line="63" column="42" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="42" />
+            <state vertical-scroll-proportion="12.724138">
+              <caret line="351" column="41" selection-start-line="351" selection-start-column="35" selection-end-line="351" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -298,8 +80,28 @@
       <file leaf-file-name="import-item.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-item.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.1153846">
-              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="167" column="34" selection-start-line="167" selection-start-column="34" selection-end-line="167" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="import-items.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-items.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.692307">
+              <caret line="63" column="42" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/content/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="249.2069">
+              <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -309,10 +111,10 @@
         <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SystemsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="63" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="63" />
+              <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
               <folding>
-                <marker date="1451809745750" expanded="true" signature="4077:4136" placeholder="INSERT INTO ..." />
-                <marker date="1451809745750" expanded="true" signature="4697:4755" placeholder="UPDATE syste..." />
+                <marker date="1452240645372" expanded="true" signature="4268:4327" placeholder="INSERT INTO ..." />
+                <marker date="1452240645372" expanded="true" signature="4888:4946" placeholder="UPDATE syste..." />
               </folding>
             </state>
           </provider>
@@ -321,21 +123,31 @@
       <file leaf-file-name="import-home.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.538462">
-              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+            <state vertical-scroll-proportion="-10.269231">
+              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSPStartSubmissionLookupStep.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/submit/step/JSPStartSubmissionLookupStep.java">
+      <file leaf-file-name="WorkspaceItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/content/WorkspaceItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="160" column="30" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
+              <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectCollectionStep.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/submit/step/SelectCollectionStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="155" column="14" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
               <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
+                <marker date="1452246913940" expanded="true" signature="4575:4703" placeholder="INSERT INTO ..." />
+                <marker date="1452246913940" expanded="true" signature="5412:5540" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
@@ -345,7 +157,7 @@
         <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ImportServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="103" column="82" selection-start-line="103" selection-start-column="82" selection-end-line="103" selection-end-column="82" />
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -393,19 +205,20 @@
         <option value="$PROJECT_DIR$/dspace-jspui/src/main/webapp/static/js/handlers.js" />
         <option value="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/jsptag/BrowseListTag.java" />
         <option value="$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/app/itemexport/ItemExport.java" />
-        <option value="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SystemsServlet.java" />
         <option value="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/system-home.jsp" />
         <option value="$PROJECT_DIR$/dspace-jspui/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/submit/step/JSPDescribeStep.java" />
         <option value="$PROJECT_DIR$/dspace-jspui/src/main/webapp/display-item.jsp" />
         <option value="$PROJECT_DIR$/dspace-jspui/src/main/webapp/collection-home.jsp" />
         <option value="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/util/SoapHelper.java" />
-        <option value="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ImportServlet.java" />
         <option value="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-items.jsp" />
+        <option value="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ImportServlet.java" />
+        <option value="$PROJECT_DIR$/dspace-jspui/src/main/webapp/submit/edit-metadata.jsp" />
+        <option value="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SystemsServlet.java" />
+        <option value="$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/submit/step/SelectCollectionStep.java" />
+        <option value="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-home.jsp" />
         <option value="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-item.jsp" />
         <option value="$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java" />
-        <option value="$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-home.jsp" />
-        <option value="$PROJECT_DIR$/dspace-jspui/src/main/webapp/submit/edit-metadata.jsp" />
       </list>
     </option>
   </component>
@@ -458,8 +271,11 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -545,6 +361,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dspace-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dspace-sgau" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dspace-jspui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -660,6 +506,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dspace-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dspace-sgau" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dspace-jspui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -741,9 +617,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -1036,6 +909,7 @@
       <workItem from="1451810294967" duration="20970000" />
       <workItem from="1451908366668" duration="21102000" />
       <workItem from="1452017797985" duration="12011000" />
+      <workItem from="1452198578885" duration="18357000" />
     </task>
     <task id="LOCAL-00001" summary="Lalek">
       <created>1451669325984</created>
@@ -1059,11 +933,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168419000" />
+    <option name="totallyTimeSpent" value="186776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1079,6 +953,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2881166" sideWeight="0.44375" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1090,7 +965,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28923768" sideWeight="0.44375" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1121,67 +995,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/content/WorkspaceItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="407" column="38" selection-start-line="407" selection-start-column="38" selection-end-line="407" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/content/DSpaceObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="578" column="7" selection-start-line="578" selection-start-column="7" selection-end-line="578" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/submit/access-step.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17288135">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/submit/access-step.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1702127">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/login/chooser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3865248">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/DSpaceServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3030303">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/admin/EditCommunitiesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2254237">
-          <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/OpenURLServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2220339">
           <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/content/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1210,13 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/HandleServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="454" column="0" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1281,26 +1091,19 @@
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/dspace/dspace-api-lang/5.0.6/dspace-api-lang-5.0.6.jar!/Messages_ru.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18584071">
           <caret line="547" column="7" selection-start-line="547" selection-start-column="0" selection-end-line="548" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/jsptag/BrowseListTag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.642858">
           <caret line="427" column="17" selection-start-line="427" selection-start-column="17" selection-end-line="427" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3524229">
-          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1353,14 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/submit/JSPStepManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="408" column="33" selection-start-line="408" selection-start-column="33" selection-end-line="408" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/submit/step/DescribeStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1373,13 +1168,6 @@
         <state vertical-scroll-proportion="-7.034483">
           <caret line="408" column="55" selection-start-line="408" selection-start-column="55" selection-end-line="408" selection-end-column="55" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/display-item.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="23.781818">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1408,9 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1418,26 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="171" column="9" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#4659#4660#0" expanded="false" />
-            <element signature="e#4712#4713#0" expanded="false" />
-            <element signature="e#4765#4766#0" expanded="false" />
-            <element signature="e#4808#4809#0" expanded="false" />
-            <element signature="e#10900#10927#0" expanded="false" />
-            <element signature="e#11863#11884#0" expanded="false" />
-            <element signature="e#12608#12624#0" expanded="false" />
-            <element signature="e#20716#20724#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ImportServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="103" column="82" selection-start-line="103" selection-start-column="82" selection-end-line="103" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1452,76 +1217,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SystemsServlet.java">
+    <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/handle/HandleManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="63" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="63" />
-          <folding>
-            <marker date="1451809745750" expanded="true" signature="4077:4136" placeholder="INSERT INTO ..." />
-            <marker date="1451809745750" expanded="true" signature="4697:4755" placeholder="UPDATE syste..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-items.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.115385">
-          <caret line="63" column="42" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="400" column="25" selection-start-line="400" selection-start-column="25" selection-end-line="400" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java">
+    <entry file="file://$PROJECT_DIR$/dspace/config/dspace.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="385" column="43" selection-start-line="385" selection-start-column="43" selection-end-line="385" selection-end-column="43" />
+          <caret line="1152" column="51" selection-start-line="1152" selection-start-column="51" selection-end-line="1152" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/jsptag/ItemTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.05940594">
+          <caret line="473" column="17" selection-start-line="473" selection-start-column="17" selection-end-line="473" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/content/DSpaceObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="482" column="27" selection-start-line="482" selection-start-column="27" selection-end-line="482" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ItemExportArchiveServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/HandleServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6551723">
+          <caret line="461" column="31" selection-start-line="461" selection-start-column="31" selection-end-line="461" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/app/util/SubmissionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="157" column="32" selection-start-line="157" selection-start-column="32" selection-end-line="157" selection-end-column="32" />
+          <folding>
+            <element signature="e#5288#5289#0" expanded="false" />
+            <element signature="e#5330#5331#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/submit/JSPStepManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3448275">
+          <caret line="481" column="45" selection-start-line="481" selection-start-column="45" selection-end-line="481" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ItemExportArchiveServlet.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar!/javax/servlet/ServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.62069">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/app/itemexport/ItemExport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.310345">
-          <caret line="682" column="54" selection-start-line="682" selection-start-column="54" selection-end-line="682" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.58965516">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-item.jsp">
+    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/display-item.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1153846">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.538462">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        <state vertical-scroll-proportion="3.524957">
+          <caret line="173" column="54" selection-start-line="173" selection-start-column="54" selection-end-line="173" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/submit/edit-metadata.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3065513">
-          <caret line="1025" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="1650" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.038462">
+          <caret line="1629" column="9" selection-start-line="1629" selection-start-column="9" selection-end-line="1629" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ImportServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/content/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="249.2069">
+          <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/content/WorkspaceItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="134" column="34" selection-start-line="134" selection-start-column="34" selection-end-line="134" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-item.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="167" column="34" selection-start-line="167" selection-start-column="34" selection-end-line="167" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.269231">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/webapp/import/import-items.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SystemsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
           <folding>
-            <element signature="e#53272#53283#0#JAVA" expanded="true" />
+            <marker date="1452240645372" expanded="true" signature="4268:4327" placeholder="INSERT INTO ..." />
+            <marker date="1452240645372" expanded="true" signature="4888:4946" placeholder="UPDATE syste..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/app/itemexport/ItemExport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="12.724138">
+          <caret line="351" column="41" selection-start-line="351" selection-start-column="35" selection-end-line="351" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-api/src/main/java/org/dspace/submit/step/SelectCollectionStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="155" column="14" selection-start-line="155" selection-start-column="14" selection-end-line="155" selection-end-column="14" />
+          <folding>
+            <marker date="1452246913940" expanded="true" signature="4575:4703" placeholder="INSERT INTO ..." />
+            <marker date="1452246913940" expanded="true" signature="5412:5540" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14705883">
+          <caret line="248" column="29" selection-start-line="248" selection-start-column="29" selection-end-line="248" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1452248905433" expanded="true" signature="10525:10653" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>

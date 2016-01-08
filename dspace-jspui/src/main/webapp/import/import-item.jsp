@@ -44,6 +44,7 @@
 
   String collection_id = (String) request.getAttribute("collection_id");
   String community_id = (String) request.getAttribute("community_id");
+  String uuid = (String) request.getAttribute("uuid_search");
   Document doc = (Document) request.getAttribute("document");
 
   XPathFactory xpathFactory = XPathFactory.newInstance();
@@ -160,12 +161,11 @@
 %>
 
 <dspace:layout style="submission" titlekey="jsp.register.edit-profile.title" nocache="true">
-  <b>Автор: </b><%= author%>
+  <b>Автор: </b><%= author%><br>
   <b>Наименование: </b> <%=titles%> <br>
-  <b>Ключевые слова: </b> <%=tagsString %> <br>
+  <b>Ключевые слова: </b> <%=coverages %> <br>
   <b>Дата: </b><%=date%> <br>
   <b>Языки: </b><%=languages%><br>
-  <b>Коверейджес: </b><%=coverages%><br>
 
   <form action="/jspui/submit" method="post" name="edit_metadata" id="edit_metadata" onkeydown="return disableEnterKey(event);">
     <input type="hidden" name="collection" value="<%=collection_id %>" />
@@ -176,6 +176,7 @@
     <input type="hidden" name="languages" value="<%=languages %>" />
     <input type="hidden" name="coverages" value="<%=coverages %>" />
     <input type="hidden" name="author" value="<%=author %>" />
+    <input type="hidden" name="identifier" value="<%=uuid %>" />
     <input class="btn btn-primary pull-left col-md-3" type="submit" name="submit" value="Найти">
   </form>
 
