@@ -16,7 +16,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.log4j.Logger;
 
+import org.dspace.app.itemexport.ItemExport;
 import org.dspace.app.util.SubmissionInfo;
+import org.dspace.content.Item;
 import org.dspace.core.ConfigurationManager;
 import org.dspace.submit.AbstractProcessingStep;
 import org.dspace.authorize.AuthorizeException;
@@ -81,6 +83,8 @@ public class CompleteStep extends AbstractProcessingStep
                 "Completed submission with id="
                         + subInfo.getSubmissionItem().getID()));
 
+
+
         // Start the workflow for this Submission
         boolean success = false;
         try
@@ -114,6 +118,18 @@ public class CompleteStep extends AbstractProcessingStep
                 context.getDBConnection().rollback();
             }
         }
+
+        String itemId = request.getParameter("workspace_item_id");
+
+        Item item = Item.find(context, Integer.parseInt(itemId));
+
+
+        try {
+            ItemExport.exportItemToFolder(context,item,"/home/dspace",0,false);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
         return STATUS_COMPLETE;
     }
 

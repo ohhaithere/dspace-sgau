@@ -136,13 +136,13 @@ public class SelectCollectionStep extends AbstractProcessingStep
                 statement.close();
             }
 
-         /*   if(coverages != null){
+            if(coverages != null) {
                 String cov[] = coverages.split(",");
-
-                for(int i = 0; i < coverages.length(); i++){
-                    PreparedStatement statement2 = null;
-                    statement2 = context.getDBConnection().prepareStatement("INSERT INTO metadatavalue (metadata_field_id, resource_id, text_value, place, confidence, resource_type_id) VALUES (?,?,?,?,?,?)");
-
+                String query = "INSERT INTO metadatavalue (metadata_field_id, resource_id, text_value, place, confidence, resource_type_id) VALUES (?,?,?,?,?,?)";
+                PreparedStatement statement2 = null;
+                try {
+                    statement2 = context.getDBConnection().prepareStatement(query);
+                 for (int i = 0; i < coverages.length(); i++) {
                     statement2.setInt(1, 80);
                     statement2.setInt(2, wi.getID());
                     statement2.setString(3, cov[i]);
@@ -153,7 +153,12 @@ public class SelectCollectionStep extends AbstractProcessingStep
                     //
 
                 }
-            } */
+            } catch(Exception e) {
+
+                } finally {
+                    statement2.close();
+                }
+                }
 
 
             context.getDBConnection().commit();

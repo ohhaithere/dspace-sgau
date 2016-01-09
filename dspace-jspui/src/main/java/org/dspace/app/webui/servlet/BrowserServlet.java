@@ -107,17 +107,18 @@ public class BrowserServlet extends AbstractBrowserServlet {
         result = result.replace("]","");
         result = result.replace("\"","");
         String[] parts = result.split(",");
+        ArrayList<Item> items = new ArrayList<>();
         for(String s : parts){
             Item item = null;
             item = Item.find(context, Integer.parseInt(s));
-            try {
-                ItemExport.exportItemToFolder(context, item, "/home/dspace", 0, false);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+            items.add(item);
         }
 
-
+        try {
+            ItemExport.exportItemToFolderMass(context, items, "C:/ds", 0, false);
+        } catch (Exception e) {
+            log.trace(e);
+        }
 
         response.setStatus(200);
         PrintWriter out = response.getWriter();

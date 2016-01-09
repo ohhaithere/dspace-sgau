@@ -250,6 +250,7 @@ public class SubmissionController extends DSpaceServlet
       /*      String coverages = request.getParameter("coverages");
             if(coverages != null) {
                 String cov[] = coverages.split(",");
+                String query =
 
                 for (int i = 0; i < coverages.length(); i++) {
                     PreparedStatement statement2 = null;
