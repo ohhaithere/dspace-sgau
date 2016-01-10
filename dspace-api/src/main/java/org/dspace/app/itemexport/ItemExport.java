@@ -743,7 +743,7 @@ public class ItemExport
                         .getBytes("UTF-8");
                 out2.write(utf8, 0, utf8.length);
             }
-            dcorevalues2 = i.getMetadata(schema, "subject", Item.ANY,
+            dcorevalues2 = i.getMetadata(schema, "coverage", Item.ANY,
                     Item.ANY);
             for (Metadatum dcv : dcorevalues2)
             {
@@ -754,6 +754,20 @@ public class ItemExport
                     qualifier = "none";
                 }
                 utf8 = ("<Coverage><Quilfier>Spatial</Quilfier><Value>"+dcv.value+"</Value></Coverage>\n")
+                        .getBytes("UTF-8");
+                out2.write(utf8, 0, utf8.length);
+            }
+            dcorevalues2 = i.getMetadata(schema, "subject", Item.ANY,
+                    Item.ANY);
+            for (Metadatum dcv : dcorevalues2)
+            {
+                String qualifier = dcv.qualifier;
+
+                if (qualifier == null)
+                {
+                    qualifier = "none";
+                }
+                utf8 = ("<Subject><Quilfier>Spatial</Quilfier><Value>"+dcv.value+"</Value></Subject>\n")
                         .getBytes("UTF-8");
                 out2.write(utf8, 0, utf8.length);
             }

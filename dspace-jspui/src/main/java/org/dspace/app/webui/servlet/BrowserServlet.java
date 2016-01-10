@@ -115,7 +115,7 @@ public class BrowserServlet extends AbstractBrowserServlet {
         }
 
         try {
-            ItemExport.exportItemToFolderMass(context, items, "C:/ds", 0, false);
+            ItemExport.exportItemToFolderMass(context, items, "/home/dspace", 0, false);
         } catch (Exception e) {
             log.trace(e);
         }
