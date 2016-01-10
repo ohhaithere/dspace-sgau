@@ -279,7 +279,9 @@ public class SubmissionController extends DSpaceServlet
             if (!item_id.equals("")) {
                 doc = sh.getRecordByCode(item_id);
                 NodeList idNode = doc.getElementsByTagName("m:BiblId");
+
                 String idItem = idNode.item(0).getTextContent();
+                request.setAttribute(idItem, "identifier");
                 docId = sh.getRecordById(idItem);
                 XPathFactory xpathFactory = XPathFactory.newInstance();
 
@@ -354,7 +356,10 @@ public class SubmissionController extends DSpaceServlet
                     e.printStackTrace();
                 }
 
-                String date = dates.item(0).getTextContent();
+                String date = "1000";
+                if(dates != null) {
+                     date = dates.item(0).getTextContent();
+                }
 
                 try {
                     expr = xpath.compile("/*/*/*/*/*[local-name()='Records']/*[local-name()='Language']");

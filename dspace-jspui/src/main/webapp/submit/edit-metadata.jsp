@@ -1629,11 +1629,16 @@
             }
         }
 		if(!(SubmissionController.isFirstStep(request, si) && pageNum<=1))
-		{ %>
+		{
+		 String identifier = "";
+		 identifier = (String) request.getParameter("identifier");
+		 if(identifier == null){
+		 identifier = (String) request.getAttribute("identifier");
+		 }
+		    %>
         <input type="hidden" name="tags" value="<%=tags %>" />
         <input type="hidden" name="coverages" value="<%=coverage %>" />
-        <input type="hidden" name="identifier" value="<%=request.getParameter("identifier")%>"
-        TEST
+        <input type="hidden" name="identifier" value="<%=identifier%>"/>
 			<div class="col-md-6 pull-right btn-group">
 				<input class="btn btn-default col-md-4" type="submit" name="<%=AbstractProcessingStep.PREVIOUS_BUTTON%>" value="<fmt:message key="jsp.submit.edit-metadata.previous"/>" />
 				<input class="btn btn-default col-md-4" type="submit" name="<%=AbstractProcessingStep.CANCEL_BUTTON%>" value="<fmt:message key="jsp.submit.edit-metadata.cancelsave"/>"/>

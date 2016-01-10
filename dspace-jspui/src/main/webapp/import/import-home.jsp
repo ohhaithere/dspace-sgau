@@ -57,16 +57,14 @@
     <b>Поиск по имени и заголову</b><br>
     <form action="/jspui/import-item" method="post" name="edit_metadata" id="edit_metadata" onkeydown="return disableEnterKey(event);">
   <span class="col-md-5">
-    <input class="form-control" type="text" name="name" placeholder="System name" size="23" value=""/>
+    <input class="form-control" type="text" name="name" placeholder="Имя автора size="23" value=""/>
   </span>
-        <br>
   <span class="col-md-5">
-    <input class="form-control" type="text" name="title" placeholder="System name" size="23" value=""/>
+    <input class="form-control" type="text" name="title" placeholder="Наименование" size="23" value=""/>
   </span>
         <input type="hidden" name="collection_id" value="<%=collection_id %>" />
         <input type="hidden" name="community_id" value="<%=community_id %>" />
         <input type="hidden" name="action" value="search" />
-        <br>
         <br>
         <br>
         <input class="btn btn-primary pull-left col-md-3" type="submit" name="submit" value="Найти">
