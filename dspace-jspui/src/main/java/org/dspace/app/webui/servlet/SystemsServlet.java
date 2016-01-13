@@ -42,6 +42,7 @@ public class SystemsServlet extends DSpaceServlet{
             TableRowIterator tri = DatabaseManager.queryTable(context, "systems", "SELECT * FROM systems");
             request.setAttribute("systems", tri);
             request.getRequestDispatcher("/system/system-home.jsp").forward(request, response);
+            request.getRequestDispatcher("/system/system-home.jsp").forward(request, response);
         }
         if(ifAdd.equals("add")){
             request.getRequestDispatcher("/system/system-add.jsp").forward(request, response);

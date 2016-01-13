@@ -41,30 +41,10 @@
 
 <dspace:layout style="submission" titlekey="jsp.register.edit-profile.title" nocache="true">
     <b>Поиск по идентификатору</b><br>
-    <form action="/jspui/import-item" method="post" name="edit_metadata" id="edit_metadata" onkeydown="return disableEnterKey(event);">
+    <form action="/jspui/import-mass" enctype="multipart/form-data" method="post" name="edit_metadata" id="edit_metadata" onkeydown="return disableEnterKey(event);">
   <span class="col-md-5">
-    <input class="form-control" type="text" name="uuid_search" placeholder="Идентификатор" size="23" value=""/>
+    <input class="form-control" type="file" name="file" placeholder="Файл" size="23" value=""/>
   </span>
-        <input type="hidden" name="collection_id" value="<%=collection_id %>" />
-        <input type="hidden" name="community_id" value="<%=community_id %>" />
-        <br>
-        <br>
-        <input class="btn btn-primary pull-left col-md-3" type="submit" name="submit" value="Найти">
-    </form>
-
-    <br>
-    <br>
-    <b>Поиск по имени и заголовку</b><br>
-    <form action="/jspui/import-item" method="post" name="edit_metadata" id="edit_metadata" onkeydown="return disableEnterKey(event);">
-  <span class="col-md-5">
-    <input class="form-control" type="text" name="name" placeholder="Имя автора" size="23" value=""/>
-  </span>
-  <span class="col-md-5">
-    <input class="form-control" type="text" name="title" placeholder="Наименование" size="23" value=""/>
-  </span>
-        <input type="hidden" name="collection_id" value="<%=collection_id %>" />
-        <input type="hidden" name="community_id" value="<%=community_id %>" />
-        <input type="hidden" name="action" value="search" />
         <br>
         <br>
         <input class="btn btn-primary pull-left col-md-3" type="submit" name="submit" value="Найти">

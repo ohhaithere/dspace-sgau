@@ -137,7 +137,7 @@ public class WorkspaceItem implements InProgressSubmission
             IOException
     {
         // Check the user has permission to ADD to the collection
-        AuthorizeManager.authorizeAction(c, coll, Constants.ADD);
+        //AuthorizeManager.authorizeAction(c, coll, Constants.ADD);
 
         // Create an item
         Item i = Item.create(c);
@@ -147,14 +147,14 @@ public class WorkspaceItem implements InProgressSubmission
         // users to modify item and contents
         // contents = bitstreams, bundles
         // FIXME: icky hardcoded workflow steps
-        Group step1group = coll.getWorkflowGroup(1);
+      /*  Group step1group = coll.getWorkflowGroup(1);
         Group step2group = coll.getWorkflowGroup(2);
-        Group step3group = coll.getWorkflowGroup(3);
+        Group step3group = coll.getWorkflowGroup(3);*/
 
         EPerson e = c.getCurrentUser();
 
         // read permission
-        AuthorizeManager.addPolicy(c, i, Constants.READ, e, ResourcePolicy.TYPE_SUBMISSION);
+  /*      AuthorizeManager.addPolicy(c, i, Constants.READ, e, ResourcePolicy.TYPE_SUBMISSION);
 
 
         if (ConfigurationManager.getProperty("workflow", "workflow.framework").equals("originalworkflow")) {
@@ -233,7 +233,7 @@ public class WorkspaceItem implements InProgressSubmission
             {
                 AuthorizeManager.addPolicy(c, i, Constants.REMOVE, step3group, ResourcePolicy.TYPE_WORKFLOW);
             }
-        }
+        }*/
 
         // Copy template if appropriate
         Item templateItem = coll.getTemplateItem();

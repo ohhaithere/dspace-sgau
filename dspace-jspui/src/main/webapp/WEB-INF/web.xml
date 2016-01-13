@@ -203,6 +203,11 @@
         <servlet-class>org.dspace.app.webui.servlet.ImportServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>import-mass</servlet-name>
+        <servlet-class>org.dspace.app.webui.servlet.ImportMassServlet</servlet-class>
+    </servlet>
+
   <servlet>
     <servlet-name>community-list</servlet-name>
     <servlet-class>org.dspace.app.webui.servlet.CommunityListServlet</servlet-class>
@@ -525,6 +530,10 @@
     <servlet-mapping>
         <servlet-name>import-item</servlet-name>
         <url-pattern>/import-item/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>import-mass</servlet-name>
+        <url-pattern>/import-mass/*</url-pattern>
     </servlet-mapping>
 
   <servlet-mapping>

@@ -58,7 +58,7 @@
     <br>
     <br>
     <br>
-    <input class="btn btn-primary pull-left col-md-3" type="submit" name="submit" value="<%=createOrEdit%>">
+    <input class="btn btn-primary pull-left col-md-3" type="submit" name="submit" value="<%=createOrEdit%>"> <a href="/jspui/systems">Назад</a>
   </form>
 
 
